@@ -4,6 +4,7 @@ let userDefaults = UserDefaults.standard
 
 enum UDKeys {
     static let language: String = "language"
+    static let userAnswers: String = "userAnswers"
 }
 
 public var safeAreaBottomInset: CGFloat {

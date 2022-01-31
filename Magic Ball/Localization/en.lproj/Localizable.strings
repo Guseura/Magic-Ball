@@ -1,14 +1,21 @@
 
 // MARK: - Main
 
-"main.label.shake"      = "Shake your phone to\nget answer!";
+"main.label.shake"              = "Shake your phone to\nget answer!";
 
 // MARK: - Settings
 
-"settings.label.title"  = "Settings";
+"settings.label.title"          = "Settings";
 
 // MARK: - Create answer popup
 
-"popup.label.title"     = "Create custom answer";
-"popup.button.save"     = "Save";
-"popup.button.cancel"   = "Cancel";
+"popup.label.title"             = "Create custom answer";
+"popup.button.save"             = "Save";
+"popup.button.cancel"           = "Cancel";
+
+// MARK: - Answer Delete Alert
+
+"settings.alert.title"          = "Delete answer";
+"settings.alert.message"        = "Are you sure you want to delete the answer?";
+"settings.alert.action.delete"  = "Delete";
+"settings.alert.action.cancel"  = "Cancel";

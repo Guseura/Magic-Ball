@@ -12,3 +12,10 @@
 "popup.label.title"     = "Створити нову відповідь";
 "popup.button.save"     = "Зберегти";
 "popup.button.cancel"   = "Скасувати";
+
+// MARK: - Answer Delete Alert
+
+"settings.alert.title"          = "Видалити відповідь";
+"settings.alert.message"        = "Ви впевнені, що хочете видалити відповідь?";
+"settings.alert.action.delete"  = "Видалити";
+"settings.alert.action.cancel"  = "Скасувати";
