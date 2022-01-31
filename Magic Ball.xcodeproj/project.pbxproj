@@ -36,6 +36,8 @@
 		4AB49CE427A832EC00909772 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CE327A832EC00909772 /* UIButton.swift */; };
 		4AB49CE727A8393700909772 /* CustomAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CE527A8393700909772 /* CustomAnswerTableViewCell.swift */; };
 		4AB49CE827A8393700909772 /* CustomAnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB49CE627A8393700909772 /* CustomAnswerTableViewCell.xib */; };
+		4AB49CEB27A83D6600909772 /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CEA27A83D6600909772 /* Magic.swift */; };
+		4AB49CED27A83D7F00909772 /* MagicNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CEC27A83D7F00909772 /* MagicNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		4AB49CE327A832EC00909772 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		4AB49CE527A8393700909772 /* CustomAnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnswerTableViewCell.swift; sourceTree = "<group>"; };
 		4AB49CE627A8393700909772 /* CustomAnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAnswerTableViewCell.xib; sourceTree = "<group>"; };
+		4AB49CEA27A83D6600909772 /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		4AB49CEC27A83D7F00909772 /* MagicNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 		4AB49CC027A8103700909772 /* Magic */ = {
 			isa = PBXGroup;
 			children = (
+				4AB49CEA27A83D6600909772 /* Magic.swift */,
+				4AB49CEC27A83D7F00909772 /* MagicNetwork.swift */,
 			);
 			path = Magic;
 			sourceTree = "<group>";
@@ -337,8 +343,10 @@
 				4AB49CAC27A80D9500909772 /* UIView.swift in Sources */,
 				4AB49CCC27A810CA00909772 /* Storyboards.swift in Sources */,
 				4AB49CE227A8321200909772 /* AddCustomAnswerPopup.swift in Sources */,
+				4AB49CEB27A83D6600909772 /* Magic.swift in Sources */,
 				4AB49CE027A8318400909772 /* Popups.swift in Sources */,
 				4AB49CAB27A80D9500909772 /* UINavigationController.swift in Sources */,
+				4AB49CED27A83D7F00909772 /* MagicNetwork.swift in Sources */,
 				4AB49CC527A810A200909772 /* Util.swift in Sources */,
 				4AB49CE427A832EC00909772 /* UIButton.swift in Sources */,
 				4AB49CAE27A80D9500909772 /* UITableView.swift in Sources */,

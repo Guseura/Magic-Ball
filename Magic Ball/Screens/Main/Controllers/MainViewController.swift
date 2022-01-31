@@ -29,3 +29,26 @@ class MainViewController: BaseViewController {
         self.navigationController?.pushViewController(settingsViewController, animated: true)
     }
 }
+
+// MARK: - Motion override
+
+extension MainViewController {
+    
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if event?.subtype == UIEvent.EventSubtype.motionShake {
+            if isConnectedToNetwork() {
+                MagicNetwork().getMagic { (result) in
+                    switch result {
+                    case .success(let newsResponse):
+                    DispatchQueue.main.async {
+                        self.mainLabel.text = newsResponse.magic.answer
+                    }
+                    case .failure(let error):
+                        print("DEBUG PRINT | \(error)")
+                    }
+                }
+            }
+        }
+    }
+    
+}
