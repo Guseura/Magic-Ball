@@ -2,7 +2,7 @@ import UIKit
 
 public enum Cell: String {
     
-    case language = "LanguageTableViewCell"
+    case customAnswer = "CustomAnswerTableViewCell"
     
 }
 

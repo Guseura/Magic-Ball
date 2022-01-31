@@ -6,12 +6,13 @@ struct Language {
     let code: Code
     
     internal enum Code: String, Codable {
-        case en, ua
+        case en, uk
         
         init(_ value: String) {
-            switch value {
+            switch value.lowercased() {
             case "en": self = .en
-            case "ua": self = .ua
+            case "ua": self = .uk
+            case "uk": self = .uk
             default: self = .en
             }
         }
@@ -23,8 +24,7 @@ struct Language {
     
     static let languages: [Language] = [
         Language(name: "English",   code: .en),
-        Language(name: "Ukranian",  code: .ua)
-        
+        Language(name: "Ukranian",  code: .uk)
     ]
 }
 

@@ -1,0 +1,14 @@
+
+// MARK: - Main
+
+"main.label.shake"      = "Shake your phone to\nget answer!";
+
+// MARK: - Settings
+
+"settings.label.title"  = "Settings";
+
+// MARK: - Create answer popup
+
+"popup.label.title"     = "Create custom answer";
+"popup.button.save"     = "Save";
+"popup.button.cancel"   = "Cancel";

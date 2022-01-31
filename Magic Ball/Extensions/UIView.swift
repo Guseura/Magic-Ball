@@ -11,6 +11,10 @@ extension UIView {
         layer.maskedCorners = cornerMask
     }
     
+    func roundCorners(radius: CGFloat) {
+        layer.cornerRadius = radius
+    }
+    
     func capsuleCorners(corners: UIRectCorner) {
         self.roundCorners(radius: self.frame.height / 2, corners: corners)
     }

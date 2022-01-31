@@ -7,3 +7,8 @@
 
 "settings.label.title"  = "Налаштування";
 
+// MARK: - Create answer popup
+
+"popup.label.title"     = "Створити нову відповідь";
+"popup.button.save"     = "Зберегти";
+"popup.button.cancel"   = "Скасувати";

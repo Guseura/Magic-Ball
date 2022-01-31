@@ -3,14 +3,12 @@ import UIKit
 class MainViewController: BaseViewController {
 
     // MARK: - @IBOutlets
-    
-    // Views
+
     // Labels
-    // Buttons
-    // Image Views
-    // ...
+    @IBOutlet weak var mainLabel: UILabel!
     
-    // MARK: - Variables
+    // Buttons
+    @IBOutlet weak var settingsButton: UIButton!
     
     // MARK: - Awake functions
     
@@ -21,9 +19,13 @@ class MainViewController: BaseViewController {
     // MARK: - Custom functions
     
     override func localize() {
-        
+        mainLabel.localize(with: "main.label.shake")
     }
     
     // MARK: - @IBActions
     
+    @IBAction func settingsButtonPressed(_ sender: Any) {
+        let settingsViewController = SettingsViewController.load(from: Main.settings)
+        self.navigationController?.pushViewController(settingsViewController, animated: true)
+    }
 }

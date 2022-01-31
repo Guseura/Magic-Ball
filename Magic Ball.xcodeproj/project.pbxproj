@@ -20,7 +20,6 @@
 		4AB49CAD27A80D9500909772 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CA527A80D9500909772 /* UIViewController.swift */; };
 		4AB49CAE27A80D9500909772 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CA627A80D9500909772 /* UITableView.swift */; };
 		4AB49CAF27A80D9500909772 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CA727A80D9500909772 /* UIImage.swift */; };
-		4AB49CB727A80EB300909772 /* localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB49CB927A80EB300909772 /* localization.strings */; };
 		4AB49CBD27A80FFC00909772 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CBC27A80FFC00909772 /* State.swift */; };
 		4AB49CBF27A8102600909772 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CBE27A8102600909772 /* Language.swift */; };
 		4AB49CC527A810A200909772 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CC327A810A200909772 /* Util.swift */; };
@@ -31,6 +30,12 @@
 		4AB49CCF27A8110A00909772 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CCE27A8110A00909772 /* BaseViewController.swift */; };
 		4AB49CD527A811B500909772 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CD427A811B500909772 /* MainViewController.swift */; };
 		4AB49CD727A8120100909772 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CD627A8120100909772 /* SettingsViewController.swift */; };
+		4AB49CDA27A81B2F00909772 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB49CDC27A81B2F00909772 /* Localizable.strings */; };
+		4AB49CE027A8318400909772 /* Popups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CDF27A8318400909772 /* Popups.swift */; };
+		4AB49CE227A8321200909772 /* AddCustomAnswerPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CE127A8321200909772 /* AddCustomAnswerPopup.swift */; };
+		4AB49CE427A832EC00909772 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CE327A832EC00909772 /* UIButton.swift */; };
+		4AB49CE727A8393700909772 /* CustomAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB49CE527A8393700909772 /* CustomAnswerTableViewCell.swift */; };
+		4AB49CE827A8393700909772 /* CustomAnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB49CE627A8393700909772 /* CustomAnswerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +56,6 @@
 		4AB49CA727A80D9500909772 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		4AB49CB227A80E2800909772 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		4AB49CB327A80E2800909772 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		4AB49CB827A80EB300909772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localization.strings; sourceTree = "<group>"; };
-		4AB49CBA27A80EB700909772 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/localization.strings; sourceTree = "<group>"; };
 		4AB49CBC27A80FFC00909772 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		4AB49CBE27A8102600909772 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		4AB49CC327A810A200909772 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
@@ -63,6 +66,13 @@
 		4AB49CCE27A8110A00909772 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4AB49CD427A811B500909772 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4AB49CD627A8120100909772 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4AB49CDB27A81B2F00909772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4AB49CDD27A81B3400909772 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4AB49CDF27A8318400909772 /* Popups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popups.swift; sourceTree = "<group>"; };
+		4AB49CE127A8321200909772 /* AddCustomAnswerPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomAnswerPopup.swift; sourceTree = "<group>"; };
+		4AB49CE327A832EC00909772 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		4AB49CE527A8393700909772 /* CustomAnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		4AB49CE627A8393700909772 /* CustomAnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAnswerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,7 @@
 				4AB49CA627A80D9500909772 /* UITableView.swift */,
 				4AB49CA427A80D9500909772 /* UIView.swift */,
 				4AB49CA527A80D9500909772 /* UIViewController.swift */,
+				4AB49CE327A832EC00909772 /* UIButton.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -134,7 +145,7 @@
 		4AB49CB427A80E8100909772 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				4AB49CB927A80EB300909772 /* localization.strings */,
+				4AB49CDC27A81B2F00909772 /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -172,6 +183,7 @@
 				4AB49CC827A810CA00909772 /* Main.swift */,
 				4AB49CC727A810C900909772 /* Cells.swift */,
 				4AB49CC927A810CA00909772 /* Storyboards.swift */,
+				4AB49CDF27A8318400909772 /* Popups.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -189,6 +201,7 @@
 		4AB49CD027A8111000909772 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4AB49CDE27A8312A00909772 /* Popups */,
 				4AB49CD227A8113800909772 /* Cells */,
 				4AB49CD327A8113E00909772 /* Controllers */,
 				4AB49C8D27A809A900909772 /* Main.storyboard */,
@@ -207,6 +220,7 @@
 		4AB49CD227A8113800909772 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				4AB49CE927A8393C00909772 /* Custom Answer */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -218,6 +232,23 @@
 				4AB49CD627A8120100909772 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AB49CDE27A8312A00909772 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				4AB49CE127A8321200909772 /* AddCustomAnswerPopup.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		4AB49CE927A8393C00909772 /* Custom Answer */ = {
+			isa = PBXGroup;
+			children = (
+				4AB49CE527A8393700909772 /* CustomAnswerTableViewCell.swift */,
+				4AB49CE627A8393700909772 /* CustomAnswerTableViewCell.xib */,
+			);
+			path = "Custom Answer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB49C9427A809AC00909772 /* LaunchScreen.storyboard in Resources */,
-				4AB49CB727A80EB300909772 /* localization.strings in Resources */,
+				4AB49CE827A8393700909772 /* CustomAnswerTableViewCell.xib in Resources */,
+				4AB49CDA27A81B2F00909772 /* Localizable.strings in Resources */,
 				4AB49C9127A809AC00909772 /* Assets.xcassets in Resources */,
 				4AB49C8F27A809A900909772 /* Main.storyboard in Resources */,
 			);
@@ -292,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB49CE727A8393700909772 /* CustomAnswerTableViewCell.swift in Sources */,
 				4AB49CAA27A80D9500909772 /* UILabel.swift in Sources */,
 				4AB49CAF27A80D9500909772 /* UIImage.swift in Sources */,
 				4AB49CA827A80D9500909772 /* UICollectionView.swift in Sources */,
@@ -303,8 +336,11 @@
 				4AB49CA927A80D9500909772 /* UIColor.swift in Sources */,
 				4AB49CAC27A80D9500909772 /* UIView.swift in Sources */,
 				4AB49CCC27A810CA00909772 /* Storyboards.swift in Sources */,
+				4AB49CE227A8321200909772 /* AddCustomAnswerPopup.swift in Sources */,
+				4AB49CE027A8318400909772 /* Popups.swift in Sources */,
 				4AB49CAB27A80D9500909772 /* UINavigationController.swift in Sources */,
 				4AB49CC527A810A200909772 /* Util.swift in Sources */,
+				4AB49CE427A832EC00909772 /* UIButton.swift in Sources */,
 				4AB49CAE27A80D9500909772 /* UITableView.swift in Sources */,
 				4AB49CCB27A810CA00909772 /* Main.swift in Sources */,
 				4AB49C8827A809A900909772 /* AppDelegate.swift in Sources */,
@@ -336,13 +372,13 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4AB49CB927A80EB300909772 /* localization.strings */ = {
+		4AB49CDC27A81B2F00909772 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AB49CB827A80EB300909772 /* en */,
-				4AB49CBA27A80EB700909772 /* uk */,
+				4AB49CDB27A81B2F00909772 /* en */,
+				4AB49CDD27A81B3400909772 /* uk */,
 			);
-			name = localization.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
